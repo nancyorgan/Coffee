@@ -32,4 +32,4 @@ clickthrough = webpage %>% html_nodes(css = ".bb-category-cell a") %>% html_attr
 
 beanboxData = beanbox(url$beanbox)
 # write.csv(revlonData, "/Users/nancyorgan/Documents/Nail-Polish/revlonData.csv", row.names = FALSE)
-#
+#@@@gi 
