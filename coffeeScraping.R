@@ -26,8 +26,7 @@ beanbox = function(url){
     return(data.frame(name, notes, clickthrough))
 }
 
-url = "https://beanbox.com/coffee/subscribe-and-refill"
-# url = "https://beanbox.com/coffee/roast/blossom-coffee-roasters-dark-side-of-the-moon/294"
+url = "https://beanbox.com/coffee/roast/blossom-coffee-roasters-dark-side-of-the-moon/294"
 beanbox(url)
 
 ################################################################################
@@ -35,29 +34,39 @@ beanbox(url)
 
 details = function(url){
   webpage <- read_html(url)
-  elements = webpage %>% 
-    html_nodes(css = ".list-group-item") 
-  
-  taste = elements[grep("tastes", elements)] %>%
-    html_nodes(xpath = "a") %>% 
+  elements = webpage %>%
+    html_nodes(xpath ='//*[@id="bb-content"]/div[2]/div/div/div[2]/ul/li')
+    # html_nodes(css = ".list-group-item") 
+
+  taste = elements[grep("Tastes", elements)] %>%
     html_text()
+  taste = gsub("Tastes: ", "", taste)
+  taste = gsub("\n", "", taste)
+  taste = gsub("^\\s+|\\s+$", "", taste)
+  taste = tolower(taste)
   
-  roast = elements[grep("roasts", elements)] %>%
-    html_nodes(xpath = "a") %>% 
+  roast = elements[grep("roast profile", elements)] %>%
     html_text()
-  
-  origin = elements[grep("coffees", elements)] %>%
-    html_nodes(xpath = "a") %>% 
+  roast = gsub("roast profile", "", roast)
+  roast = gsub("^\\s+|\\s+$", "", roast)
+  roast = tolower(roast)
+
+  name = webpage %>%
+    html_nodes(css = "h1") %>%
     html_text()
+  name = gsub("\n", "", name)
+  name = gsub("\\#[0-9]", "", name)
+  name = gsub("^\\s+|\\s+$", "", name)
+
   
+  if(length(name) == 0){name = ""}
   if(length(taste) == 0){taste = ""}
   if(length(roast) == 0){roast = ""}
-  if(length(origin) == 0){origin = ""}
-  
-  return(data.frame(url, taste, roast, origin))
+
+  return(data.frame(url, name, roast, taste))
 }
 
-# details(url)
+details(url)
 
 ################################################################################
 ############# Get all Coffees ##################################################
@@ -73,6 +82,7 @@ getAllCoffees = function(max){
     tryCatch(
       expr = {
         mydata[[i]] = details(url)
+        # print(mydata[[i]])
       },
       error = function(e){
         message("*not a valid url", i)
@@ -86,12 +96,13 @@ getAllCoffees = function(max){
 }
 
 allCoffees = getAllCoffees(1090)
+allCoffees
 dim(allCoffees)
 allCoffees$taste = as.character(allCoffees$taste)
 allCoffees$roast = as.character(allCoffees$roast)
 allCoffees$origin = as.character(allCoffees$origin)
 allCoffees = allCoffees[allCoffees$taste != "",]
-# write.csv(allCoffees, "/Users/nancyorgan/Documents/Coffee/coffeedata.csv", row.names = FALSE)
+write.csv(allCoffees, "/Users/nancyorgan/Documents/Coffee/coffeeQueriable.csv", row.names = FALSE)
 
 ################################################################################
 ################# Reformat All Coffees #########################################
@@ -104,7 +115,7 @@ allCoffees2 =
   select(url, roast, origin, notes) %>%
   unique() 
 
-write.csv(allCoffees2, "/Users/nancyorgan/Documents/Coffee/coffeeQueriable.csv", row.names = FALSE)
+# write.csv(allCoffees2, "/Users/nancyorgan/Documents/Coffee/coffeeQueriable.csv", row.names = FALSE)
 ################################################################################
 ################# Make linkages ################################################
 # linkdat = list()
