@@ -55,7 +55,7 @@ details = function(url){
     html_nodes(css = "h1") %>%
     html_text()
   name = gsub("\n", "", name)
-  name = gsub("\\#[0-9]", "", name)
+  name = gsub("\\#[0-9].*", "", name)
   name = gsub("^\\s+|\\s+$", "", name)
 
   
@@ -102,6 +102,7 @@ allCoffees$taste = as.character(allCoffees$taste)
 allCoffees$roast = as.character(allCoffees$roast)
 allCoffees$origin = as.character(allCoffees$origin)
 allCoffees = allCoffees[allCoffees$taste != "",]
+names(allCoffees) = c("url", "name", "roast", "notes")
 write.csv(allCoffees, "/Users/nancyorgan/Documents/Coffee/coffeeQueriable.csv", row.names = FALSE)
 
 ################################################################################
