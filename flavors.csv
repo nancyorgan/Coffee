@@ -1,0 +1,141 @@
+flavors,Floral,Black tea,NA
+flavors,Floral,Floral,Chamomile
+flavors,Floral,Floral,Rose
+flavors,Floral,Floral,Jasmine
+flavors,Floral,Floral,Guava
+flavors,Floral,Floral,Lavender
+flavors,Floral,Floral,Orange Blossom
+flavors,Floral,Herbal,Bergamot
+flavors,Floral,Herbal,Black Tea
+flavors,Floral,Herbal,Mint
+flavors,Floral,Herbal,Sage
+flavors,Fruity,Berry,Blackberry
+flavors,Fruity,Berry,Raspberry
+flavors,Fruity,Berry,Blueberry
+flavors,Fruity,Berry,Strawberry
+flavors,Fruity,Citrus ,Citrus
+flavors,Fruity,Citrus ,Kumquat
+flavors,Fruity,Citrus ,Marmalade
+flavors,Fruity,Citrus ,Meyer Lemon
+flavors,Fruity,Citrus ,Grapefruit
+flavors,Fruity,Citrus ,Orange
+flavors,Fruity,Citrus ,Lemon
+flavors,Fruity,Citrus ,Lime
+flavors,Fruity,Dried fruit,Raisin
+flavors,Fruity,Dried fruit,Date
+flavors,Fruity,Dried fruit,Prune
+flavors,Fruity,Melon,Honeydew
+flavors,Fruity,Melon,Melon
+flavors,Fruity,Melon,Watermelon
+flavors,Fruity,Other,Black Currant
+flavors,Fruity,Other,Cranberry
+flavors,Fruity,Other,Currant
+flavors,Fruity,Other,Fig
+flavors,Fruity,Berry,Huckleberry
+flavors,Fruity,Berry,Marionberry
+flavors,Fruity,Other,Mountain Apple
+flavors,Fruity,Other,Tamarind
+flavors,Fruity,Tropical,Coconut
+flavors,Fruity,Other fruit,Cherry
+flavors,Fruity,Other fruit,Pomegranate
+flavors,Fruity,Other fruit,Pineapple
+flavors,Fruity,Other fruit,Grape
+flavors,Fruity,Other fruit,Apple
+flavors,Fruity,Other fruit,Peach
+flavors,Fruity,Other fruit,Pear
+flavors,Fruity,Stone fruit,Apricot
+flavors,Fruity,Stone fruit,Black Cherry
+flavors,Fruity,Stone fruit,Nectarine
+flavors,Fruity,Stone fruit,Plum
+flavors,Fruity,Tropical,Banana
+flavors,Fruity,Tropical,Kiwi
+flavors,Fruity,Tropical,Mango
+flavors,Fruity,Tropical,Papaya
+flavors,Fruity,Tropical,Passion Fruit
+flavors,Green/vegetative,Beany,NA
+flavors,Green/vegetative,Beany,NA
+flavors,Green/vegetative,Green/vegetative,Under-ripe
+flavors,Green/vegetative,Green/vegetative,Peapod
+flavors,Green/vegetative,Green/vegetative,Fresh
+flavors,Green/vegetative,Green/vegetative,Dark green
+flavors,Green/vegetative,Green/vegetative,Vegetative
+flavors,Green/vegetative,Green/vegetative,Hay
+flavors,Green/vegetative,Olive oil,NA
+flavors,Green/vegetative,Raw,NA
+flavors,Nutty/cocoa,Cocoa,Cacao
+flavors,Nutty/cocoa,Cocoa,Dark Chocolate
+flavors,Nutty/cocoa,Cocoa,Fudge
+flavors,Nutty/cocoa,Cocoa,Chocolate
+flavors,Nutty/cocoa,Cocoa,Dark chocolate
+flavors,Nutty/cocoa,Nutty,Chestnut
+flavors,Nutty/cocoa,Nutty,Walnuts
+flavors,Nutty/cocoa,Nutty,Pecan
+flavors,Nutty/cocoa,Nutty,Peanuts
+flavors,Nutty/cocoa,Nutty,Hazelnut
+flavors,Nutty/cocoa,Nutty,Almond
+flavors,Other,Chemical,Bitter
+flavors,Other,Chemical,Salty
+flavors,Other,Chemical,Medicinal
+flavors,Other,Chemical,Petroleum
+flavors,Other,Chemical,Skunky
+flavors,Other,Chemical,Rubber
+flavors,Other,Papery/musty,Stale
+flavors,Other,Papery/musty,Cardboard
+flavors,Other,Papery/musty,Papery
+flavors,Other,Papery/musty,Woody
+flavors,Other,Papery/musty,Moldy/damp
+flavors,Other,Papery/musty,Musty/dusty
+flavors,Other,Papery/musty,Musty/earthy
+flavors,Other,Woody,Cedar
+flavors,Other,Woody,Oak
+flavors,Roasted,Burnt,Acrid
+flavors,Roasted,Burnt,Ashy
+flavors,Roasted,Burnt,Smoky
+flavors,Roasted,Burnt,Brown
+flavors,Roasted,Cereal,Grain
+flavors,Roasted,Cereal,Malt
+flavors,Roasted,Pipe tobacco,NA
+flavors,Roasted,Roasted,Roasted Chestnuts
+flavors,Roasted,Roasted,Toast
+flavors,Roasted,Tobacco,NA
+flavors,Sour/fermented,Alcohol,Champagne
+flavors,Sour/fermented,Alcohol,Wine
+flavors,Sour/fermented,Alcohol,Red Wine
+flavors,Sour/fermented,Alcohol,Whiskey
+flavors,Sour/fermented,Fermented,Fermented
+flavors,Sour/fermented,Fermented,Overripe
+flavors,Sour/fermented,Sour,NA
+flavors,Sour/fermented,Citric acid,NA
+flavors,Spices,Brown spice,Anise
+flavors,Spices,Brown spice,Nutmeg
+flavors,Spices,Brown spice,Cinnamon
+flavors,Spices,Brown spice,Clove
+flavors,Spices,Pepper,NA
+flavors,Spices,Pungent,NA
+flavors,Spices,Spice,Ginger
+flavors,Spices,Spice,Licorice
+flavors,Spices,Spice,Spice
+flavors,Sweet,Baked,Brownie
+flavors,Sweet,Baked,Cookie
+flavors,Sweet,Baked,Cookie Dough
+flavors,Sweet,Baked,Graham Cracker
+flavors,Sweet,Baked,Shortbread
+flavors,Sweet,Brown sugar,Molasses
+flavors,Sweet,Brown sugar,Maple syrup
+flavors,Sweet,Brown sugar,Caramelized
+flavors,Sweet,Brown sugar,Honey
+flavors,Sweet,Brown Sugar,Brown Sugar
+flavors,Sweet,Candy,Butterscotch
+flavors,Sweet,Candy,Caramel
+flavors,Sweet,Candy,Marshmallow
+flavors,Sweet,Candy,Marzipan
+flavors,Sweet,Candy,Nougat
+flavors,Sweet,Candy,Praline
+flavors,Sweet,Candy,Toffee
+flavors,Sweet,Milky,Cream
+flavors,Sweet,Milky,Milk Chocolate
+flavors,Sweet,Maple,NA
+flavors,Sweet,Sweet,Cola
+flavors,Sweet,Vanilla,NA
+flavors,Vegetables,Tomato,
+flavors,Vegetables,Rhubarb,
