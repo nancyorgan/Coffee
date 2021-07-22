@@ -1,70 +1,70 @@
-﻿Nutty or Cocoa,Cocoa,Cacao
-Nutty or Cocoa,Cocoa,Dark Chocolate
-Nutty or Cocoa,Cocoa,Fudge
-Nutty or Cocoa,Nutty,Walnuts
-Nutty or Cocoa,Nutty,Pecan
-Chestnut,Nutty,Chestnut
-Sour or fermented,Alcohol,Champagne
-Sour or fermented,Alcohol,Wine
-Sour or fermented,Alcohol,Red Wine
-Fruity,Stone fruit,Apricot
-Fruity,Tropical,Banana
-Fruity,Stone fruit,Black Cherry
-Fruity,Other,Black Currant
-Fruity,Citrus ,Citrus
-Fruity,Other,Cranberry
-Fruity,Other,Currant
-Fruity,Dried fruit,Dried Fruit
-Fruity,Other,Fig
-Fruity,Melon,Honeydew
-Fruity,Other,Huckleberry
-Fruity,Tropical,Kiwi
-Fruity,Citrus ,Kumquat
-Fruity,Tropical,Mango
-Fruity,Other,Marionberry
-Fruity,Citrus ,Marmalade
-Fruity,Melon,Melon
-Fruity,Citrus ,Meyer Lemon
-Fruity,Other,Mountain Apple
-Fruity,Stone fruit,Nectarine
-Fruity,Tropical,Papaya
-Fruity,Tropical,Passion Fruit
-Fruity,Stone fruit,Plum
-Fruity,Other,Red Grape
-Fruity,Other,Tamarind
-Fruity,Melon,Watermelon
-Floral,Herbal,Bergamot
-Floral,Herbal,Black Tea
-Floral,Floral,Guava
-Floral,Floral,Lavender
-Floral,Herbal,Mint
-Floral,Floral,Orange Blossom
-Floral,Herbal,Sage
-Spices,Spice,Ginger
-Spices,Spice,Licorice
-Spices,Spice,Spice
-Other,Woody,Cedar
-Other,Woody,Oak
-Sweet,Brown Sugar,Brown Sugar
-Sweet,Baked,Brownie
-Sweet,Candy,Butterscotch
-Sweet,Candy,Caramel
-Sweet,Baked,Cookie
-Sweet,Baked,Cookie Dough
-Sweet,Milky,Cream
-Sweet,Natural,Date
-Sweet,Baked,Graham Cracker
-Sweet,Natural,Maple
-Sweet,Natural,Maple Syrup
-Sweet,Candy,Marshmallow
-Sweet,Candy,Marzipan
-Sweet,Milky,Milk Chocolate
-Sweet,Candy,Nougat
-Sweet,Candy,Praline
-Sweet,Baked,Shortbread
-Sweet,Candy,Toffee
-Sweet,Sweet,Cola
-Vegetables,Vegetal,Tomato
-Vegetables,Vegetal,Rhubarb
-Roasted,Roasted,Roasted Chestnuts
-Roasted,Roasted,Toast
+﻿flavors,Sour or fermented,Alcohol,Champagne
+flavors,Sour or fermented,Alcohol,Wine
+flavors,Sour or fermented,Alcohol,Red Wine
+flavors,Sweet,Baked,Brownie
+flavors,Sweet,Baked,Cookie
+flavors,Sweet,Baked,Cookie Dough
+flavors,Sweet,Baked,Graham Cracker
+flavors,Sweet,Baked,Shortbread
+flavors,Sweet,Brown Sugar,Brown Sugar
+flavors,Sweet,Candy,Butterscotch
+flavors,Sweet,Candy,Caramel
+flavors,Sweet,Candy,Marshmallow
+flavors,Sweet,Candy,Marzipan
+flavors,Sweet,Candy,Nougat
+flavors,Sweet,Candy,Praline
+flavors,Sweet,Candy,Toffee
+flavors,Fruity,Citrus ,Citrus
+flavors,Fruity,Citrus ,Kumquat
+flavors,Fruity,Citrus ,Marmalade
+flavors,Fruity,Citrus ,Meyer Lemon
+flavors,Nutty or Cocoa,Cocoa,Cacao
+flavors,Nutty or Cocoa,Cocoa,Dark Chocolate
+flavors,Nutty or Cocoa,Cocoa,Fudge
+flavors,Fruity,Dried fruit,Dried Fruit
+flavors,Floral,Floral,Guava
+flavors,Floral,Floral,Lavender
+flavors,Floral,Floral,Orange Blossom
+flavors,Floral,Herbal,Bergamot
+flavors,Floral,Herbal,Black Tea
+flavors,Floral,Herbal,Mint
+flavors,Floral,Herbal,Sage
+flavors,Fruity,Melon,Honeydew
+flavors,Fruity,Melon,Melon
+flavors,Fruity,Melon,Watermelon
+flavors,Sweet,Milky,Cream
+flavors,Sweet,Milky,Milk Chocolate
+flavors,Sweet,Natural,Date
+flavors,Sweet,Natural,Maple
+flavors,Sweet,Natural,Maple Syrup
+flavors,Nutty or Cocoa,Nutty,Walnuts
+flavors,Nutty or Cocoa,Nutty,Pecan
+flavors,Nutty or Cocoa,Nutty,Chestnut
+flavors,Fruity,Other,Black Currant
+flavors,Fruity,Other,Cranberry
+flavors,Fruity,Other,Currant
+flavors,Fruity,Other,Fig
+flavors,Fruity,Other,Huckleberry
+flavors,Fruity,Other,Marionberry
+flavors,Fruity,Other,Mountain Apple
+flavors,Fruity,Other,Red Grape
+flavors,Fruity,Other,Tamarind
+flavors,Roasted,Roasted,Roasted Chestnuts
+flavors,Roasted,Roasted,Toast
+flavors,Spices,Spice,Ginger
+flavors,Spices,Spice,Licorice
+flavors,Spices,Spice,Spice
+flavors,Fruity,Stone fruit,Apricot
+flavors,Fruity,Stone fruit,Black Cherry
+flavors,Fruity,Stone fruit,Nectarine
+flavors,Fruity,Stone fruit,Plum
+flavors,Sweet,Sweet,Cola
+flavors,Fruity,Tropical,Banana
+flavors,Fruity,Tropical,Kiwi
+flavors,Fruity,Tropical,Mango
+flavors,Fruity,Tropical,Papaya
+flavors,Fruity,Tropical,Passion Fruit
+flavors,Vegetables,Vegetal,Tomato
+flavors,Vegetables,Vegetal,Rhubarb
+flavors,Other,Woody,Cedar
+flavors,Other,Woody,Oak

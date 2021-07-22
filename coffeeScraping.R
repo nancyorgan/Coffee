@@ -251,5 +251,7 @@ sort(scrapedFlavors[scrapedFlavors %nin% lexiconFlavors])
 # [69] "Toffee"            "Tomato"            "Tropical"          "Tropical Fruit"   
 # [73] "Walnuts"           "Watermelon"        "Wine"             
 
+
+
 write.csv(flavorsFilled, "/Users/nancyorgan/Documents/Coffee/flavors.csv", row.names = FALSE)
 

@@ -53,7 +53,6 @@ flavors,Fruity,Tropical,Mango
 flavors,Fruity,Tropical,Papaya
 flavors,Fruity,Tropical,Passion Fruit
 flavors,Green/vegetative,Beany,NA
-flavors,Green/vegetative,Beany,NA
 flavors,Green/vegetative,Green/vegetative,Under-ripe
 flavors,Green/vegetative,Green/vegetative,Peapod
 flavors,Green/vegetative,Green/vegetative,Fresh
@@ -137,5 +136,5 @@ flavors,Sweet,Milky,Milk Chocolate
 flavors,Sweet,Maple,NA
 flavors,Sweet,Sweet,Cola
 flavors,Sweet,Vanilla,NA
-flavors,Vegetables,Tomato,
-flavors,Vegetables,Rhubarb,
+flavors,Vegetables,Tomato,NA
+flavors,Vegetables,Rhubarb,NA
